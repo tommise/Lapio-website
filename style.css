@@ -1,1 +1,11 @@
-p { background-color: red; }
+li {
+    color: #FF1493;
+}
+
+* {
+    color: darkred;
+}
+
+.punainen {
+    color: red;
+}
