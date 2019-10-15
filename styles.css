@@ -1,23 +1,60 @@
+.container {
+    margin: 10px; /* Antaa marginaalia 10px kaikille neljälle arvolle (top, right, left, bottom) */
+    margin: 10px 5px 15px; /* Ylämarginaali on 10px, alamarginaali 15px, oikea- sekä vasen marginaali 5px */
+    margin: 10px 5px; /* Ylä- ja alamarginaalit ovat 10px, oikea sekä vasen 5px */
+    margin: 10px 5px 15px 20px; /* Ylämarginaali on 10px, oikea marginaali on 5px, alamarginaali 15px ja vasenta marginaalia 20px */
+    margin-top: 10px; /* Antaa vain ylämarginaalia 10px */
+    margin-right: 10px; /* Antaa vain oikeaa marginaalia 10px */
+    margin-left: 10px; /* Antaa vain vasenta marginaalia 10px */
+    margin-bottom: 10px; /* Antaa vain alamarginaalia 10px */
+  }
+
 .first-box-container {
     width: 200px;
-    height: 100px;
+    height: 150px;
     background-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
   }
   
 .second-box-container {
     width: 200px;
-    height: 100px;
+    height: 150px;
     background-color: yellow;
     position: relative;
     left: 250px;
-    top: -115px;
+    top: -170px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase
 }
   
 .third-box-container {
     width: 200px;
-    height: 100px;
+    height: 150px;
     background-color: green;
     position: relative;
     left: 500px;
-    top: -230px;
+    top: -340px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
