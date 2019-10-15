@@ -1,11 +1,35 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #555;
+}
+
+h1 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    width: 40%;
+    margin: auto;
+}
+
 li {
-    color: #FF1493;
+    text-align: left;
 }
 
 * {
-    color: darkred;
+    color: black;
+    text-align: center;
 }
 
-.punainen {
-    color: red;
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+  background: #eee;
 }
